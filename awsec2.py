@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from boto3 import client
-import argparse
+import argparse, re
 
 class EC2:
     def __init__(self):
